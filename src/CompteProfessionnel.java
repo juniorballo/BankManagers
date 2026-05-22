@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class CompteProfessionnel {
+public class CompteProfessionnel extends Compte {
+    // La classe hérite automatiquement de Compte
 }
