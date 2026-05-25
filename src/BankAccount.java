@@ -1,23 +1,23 @@
-public class Compte {
+public class BankAccount {
     // Les deux attributs demandés
     private String account;
     private double balance;
 
     // Constructeur par défaut (vide)
-    public Compte() {
+    public BankAccount() {
     }
 
-    //  LIRE le numéro de compte
+    // LIRE le numéro de compte
     public String getAccount() {
         return this.account;
     }
 
-    //  MODIFIER le numéro de compte
+    // MODIFIER le numéro de compte
     public void setAccount(String account) {
         this.account = account;
     }
 
-    //  LIRE le solde
+    // LIRE le solde
     public double getBalance() {
         return this.balance;
     }

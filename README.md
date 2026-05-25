@@ -5,8 +5,8 @@ Ce projet est un exercice pratique en Java démontrant les principes de l'hérit
 ## Structure du Code
 
 Le projet est composé d'une classe parente et de trois classes enfants :
-- `Compte.java` : La classe de base contenant les attributs privés `account` (numéro de compte) et `balance` (solde), ainsi que leurs getters et setters.
-- `CompteCourant.java`, `CompteEpargne.java`, `CompteProfessionnel.java` : Les classes enfants qui héritent de `Compte`.
+- `BankAccount.java` : La classe de base contenant les attributs privés `account` (numéro de compte) et `balance` (solde), ainsi que leurs getters et setters.
+- `CheckingAccount.java`, `SavingsAccount.java`, `COD.java` : Les classes enfants qui héritent de `BankAccount`.
 - `Main.java` : Le point d'entrée du programme qui instancie les classes, affecte les valeurs et affiche le résultat dans la console.
 
 ## Exécution
